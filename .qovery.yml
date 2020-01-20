@@ -1,11 +1,11 @@
 application:
   name: jhipster-sample-app
-  project: jhipster-sample-app-project
+  project: jhipster-sample-app
   cloud_region: aws/eu-west-3
   publicly_accessible: true
 routers:
-- name: main
-  routes:
-  - application_name: jhipster-sample-app
-    paths:
-    - /*
+  - name: main
+    routes:
+      - application_name: jhipster-sample-app
+        paths:
+          - /*
